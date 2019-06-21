@@ -1,0 +1,13 @@
+<template name='newsItem'>
+  <view class='news_item' bindtap='goDetail'>
+    <image class='icon' src='{{logo}}' mode='widthFix'>logo</image>
+    <view class='description'>
+      <view class="title">
+        <view style="display: inline-block; vertical-align: middle">{{title}}</view>
+        <view class="weui-badge" style="margin-left: 5px;">{{num}}</view>
+      </view>
+      <text class='content'>{{content}}</text>
+      <text class='time'>{{time}}</text>
+    </view>
+  </view>
+</template>

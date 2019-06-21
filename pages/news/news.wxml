@@ -1,0 +1,8 @@
+<!--reply-->
+<import src='../common/newsItem.wxml' />
+
+<view class='container'>
+  <block wx:for="{{[{title:'系统消息',logo:'../../style/images/icon/qunfengxitongguanli.png',time:'2017-09-09　17:09:09',num:'8',content:'消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表消息列表'}]}}">
+    <template is="newsItem" data="{{...item}}"/>
+  </block>
+</view>

@@ -1,0 +1,17 @@
+<template name='cityAreaItem'>
+  <view class='city_area' id='area_{{index}}'>
+    <text class='indexes'>{{index}}</text>
+    <block wx:for="{{item}}" wx:for-index="item_index" wx:for-item="item_item" wx:key="code">
+      <text 
+        class='city_item' 
+        data-indexes="{{index}}"
+        data-code="{{item_item.code}}" 
+        data-city="{{item_item.city_name}}"
+        data-province="{{item_item.province_name}}"
+        data-name="{{item_item.name}}"
+        id='area_{{item_item.code}}'
+        bindtap='selectCity'
+      >{{item_item.city_name}}</text>
+    </block>
+  </view>
+</template>

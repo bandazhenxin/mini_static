@@ -1,0 +1,15 @@
+<template name='jobTypeAreaItem'>
+  <view class='job_area' id='area_{{index}}'>
+    <text class='indexes'>{{index}}</text>
+    <block wx:for="{{item}}" wx:for-index="item_index" wx:for-item="item_item" wx:key="code">
+      <text 
+        class='job_item' 
+        data-indexes="{{index}}"
+        data-id="{{item_item.id}}"
+        data-name="{{item_item.position_name}}"
+        id='area_{{item_item.id}}'
+        bindtap='selectJob'
+      >{{item_item.position_name}}</text>
+    </block>
+  </view>
+</template>

@@ -1,0 +1,17 @@
+<view class='container'>
+  <view class='detail'>
+    <!--title-->
+    <view class='title'>
+      <text class='h'>系统消息</text>
+      <text class='time'>2017-09-09　17:09:09</text>
+    </view>
+
+    <!--content-->
+    <text class='content'>消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容消息内容</text>
+
+    <!--btn-->
+    <view class='btn-area'>
+      <button>查看详情</button>
+    </view>
+  </view>
+</view>
