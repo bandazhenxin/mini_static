@@ -1,2 +1,55 @@
-<!--pages/personal/personal.wxml-->
-<text>pages/personal/personal.wxml</text>
+<view>
+  <!--头部-->
+  <view class='basic_info'>
+    <image src='../../style/images/banner/default.png'>headimg</image>
+    <view class='words'>
+      <text class='name'>微信昵称</text>
+      <text class='phone'>188****0987</text>
+    </view>
+  </view>
+
+  <!--菜单-->
+  <view class='menu'>
+    <view class='menu_item'>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_icon' 
+        src='../../style/images/icon/starActiv.png'
+      >icon</image>
+      <text class='menu_name'>当前职位：HR主管</text>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_link' 
+        src='../../style/images/icon/select.png'
+      >icon</image>
+    </view>
+
+    <view class='menu_item'>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_icon' 
+        src='../../style/images/icon/starActiv.png'
+      >icon</image>
+      <text class='menu_name'>我的推荐</text>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_link' 
+        src='../../style/images/icon/select.png'
+      >icon</image>
+    </view>
+
+    <view class='menu_item'>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_icon' 
+        src='../../style/images/icon/starActiv.png'
+      >icon</image>
+      <text class='menu_name'>邀请好友</text>
+      <image 
+        mode='widthFix' 
+        class='iconfont menu_link' 
+        src='../../style/images/icon/select.png'
+      >icon</image>
+    </view>
+  </view>
+</view>

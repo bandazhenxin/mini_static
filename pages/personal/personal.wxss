@@ -1,1 +1,42 @@
 /* pages/personal/personal.wxss */
+page {
+  background-color: #F1F1F1;
+} 
+
+/* 头部 */
+.basic_info{
+  padding: 44rpx;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 22rpx;
+}
+.basic_info image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  border: 1rpx solid #FDB165;
+  margin-right: 11rpx;
+}
+.basic_info .words{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/*菜单*/
+.menu{
+  background-color: #FFFFFF;
+  padding: 0 44rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.menu .menu_item{
+  padding: 11rpx 0;
+  border-bottom: 1rpx solid #F7F7F7;
+  width: 100%;
+}
