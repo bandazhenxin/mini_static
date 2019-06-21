@@ -17,4 +17,5 @@
   <navigator open-type="navigate" url="/pages/newsList/newsList">消息列表</navigator>
   <navigator open-type="navigate" url="/pages/newsDetail/newsDetail">消息详情</navigator>
   <navigator open-type="navigate" url="/pages/personal/personal">个人中心</navigator>
+  <navigator open-type="navigate" url="/pages/myRecommend/myRecommend">我的推荐</navigator>
 </view>

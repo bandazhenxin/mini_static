@@ -6,7 +6,8 @@
     "pages/news/news",
     "pages/newsList/newsList",
     "pages/newsDetail/newsDetail",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/myRecommend/myRecommend"
   ],
   "window": {
     "backgroundTextStyle": "light",

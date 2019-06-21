@@ -17,13 +17,21 @@ page {
   height: 80rpx;
   border-radius: 40rpx;
   border: 1rpx solid #FDB165;
-  margin-right: 11rpx;
+  margin-right: 22rpx;
 }
 .basic_info .words{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+}
+.basic_info .words .name{
+  font-size: 28rpx;
+  color:#6A6A6A;
+}
+.basic_info .words .phone{
+  font-size: 26rpx;
+  color: #B2B2B2;
 }
 
 /*菜单*/
@@ -36,7 +44,20 @@ page {
   align-items: flex-start;
 }
 .menu .menu_item{
-  padding: 11rpx 0;
+  padding: 22rpx 0;
   border-bottom: 1rpx solid #F7F7F7;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .menu_item .menu_icon{
+  padding-left: 11rpx;
+}
+.menu .menu_item .menu_name{
+  display: inline-block;
+  width: 85%;
+  text-align: left;
+  font-size: 30rpx;
+  color:#5B5B5B;
 }

@@ -1,0 +1,59 @@
+<view class='container'>
+  <!--身份信息-->
+  <view class='self_info'>
+    <text class='title'>当前等级</text>
+    <view class='name'>
+      <text>HR 主管</text>
+      <image mode='widthFix' class='iconfont' src='../../style/images/icon/select.png'></image>
+    </view>
+    <text class='description'>等级越高奖励越大，快来查看更多权益吧。</text>
+  </view>
+
+  <!--团队信息-->
+  <view class='team_info weui-tab'>
+    <!--导航栏-->
+    <view class="weui-navbar">
+      <view 
+        id="0" 
+        class="weui-navbar__item weui-bar__item_on"
+      ><view class="weui-navbar__title">团队</view>
+      </view> 
+
+      <view 
+        id="1" 
+        class="weui-navbar__item"
+      ><view class="weui-navbar__title">下属</view>
+      </view> 
+
+      <view 
+        class="weui-navbar__slider" 
+        style="left: 0px; transform: translateX({0px); -webkit-transform: translateX(0px);"></view>
+    </view>
+
+    <!--内容区-->
+    <view class="weui-tab__panel">
+      <!--团队-->
+      <view class='weui-tab__content'>
+        <view class='team-item'>
+          <image class='header' src='../../style/images/banner/default.png'>header</image>
+          <view class='info'>
+            <view class='top'>
+              <text class='top-left'>王先生</text>
+              <text class='top-right'>在职</text>
+            </view>
+            <view class='bottom'>
+              <text class='left'>HR 经理  |</text>
+              <view class='right'>
+                <image mode='widthFix' class='iconfont' src='../../style/images/icon/dianhua.png'></image>
+                <text>18156253871</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <!--下属-->
+      <view hidden='{{true}}' class='weui-tab__content'></view>
+    </view>
+  </view>
+</view>
