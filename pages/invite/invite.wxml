@@ -1,4 +1,5 @@
 <!-- pages/invite/invite.wxml -->
+
 <view class="container">
   <view class="invite">
     <view class="imgWrap">
