@@ -1,11 +1,17 @@
 <!-- pages/invite/invite.wxml -->
-
 <view class="container">
   <view class="invite">
-    <view class="imgWrap">
-        <image mode='widthFix' class='inviteQr' src='../../style/images/banner/inviteQr.png'></image>
-    </view>
-    <view class="count">6/10</view>
+    <!-- 轮播图 -->
+    <swiper display-multiple-items='1' autoplay="{{autoplay}}" class="swiper" interval="{{interval}}" duration="{{duration}}" current="0" bindchange="onSlideChangeEnd">
+      <block wx:for="{{imgUrls}}" wx:key="item">
+        <swiper-item>
+          <view class='imgWrap'>
+            <image src='{{item}}' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="count">{{currentIndex}}/{{imgUrls.length}}</view>
   </view>
   <button class="bottomBtn">分享并保存图片</button>
 </view>

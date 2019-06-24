@@ -2,12 +2,14 @@
 .imgWrap{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 960rpx;
 }
 .imgWrap .inviteQr{
     width:80%;
-   
+}
+.swiper{
+    height: 960rpx;
 }
 .invite .count{
     text-align: center;
