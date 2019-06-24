@@ -1,0 +1,94 @@
+/*身份信息*/
+.self_info{
+  padding: 22rpx 44rpx;
+  border-bottom: 22rpx solid #F6F6F6;
+}
+.self_info .title{
+  font-size: 26rpx;
+  color: #BABABA;
+}
+.self_info .name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.self_info .name text{
+  font-size: 48rpx;
+  font-weight: 700;
+  color:#069842;
+}
+.self_info .name image{
+  width: 30rpx;
+}
+.self_info .description{
+  font-size: 28rpx;
+}
+
+/*团队信息*/
+.container .weui-navbar__item .weui-navbar__title{
+  font-size: 26rpx;
+  color: #646464;
+}
+.container .weui-tab .weui-bar__item_on .weui-navbar__title{
+  color: #353535;
+}
+.container .weui-navbar__slider{
+  background-color: #FF9830;
+}
+
+.weui-tab__content{
+  padding-left: 22rpx;
+  padding-right: 22rpx; 
+}
+.team-item{
+  border-bottom: 1rpx solid #BABABA;
+  padding: 22rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.team-item .header{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  padding-right: 22rpx;
+}
+.team-item .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.team-item .info .top-left{
+  font-size: 28rpx;
+}
+.team-item .info .top-right{
+  display: inline-block;
+  font-size: 16rpx;
+  border: 1rpx solid #FF9830;
+  color: #FF9830;
+  margin-left: 16rpx;
+  padding: 0 8rpx;
+}
+.team-item .info .bottom{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.team-item .info .bottom .left{
+  font-size: 28rpx;
+  color:#BABABA;
+}
+.team-item .info .bottom .right{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 12rpx;
+}
+.team-item .info .bottom .right image{
+  width: 20rpx;
+}
+.team-item .info .bottom .right text{
+  font-size: 28rpx;
+  color:#BABABA;
+}

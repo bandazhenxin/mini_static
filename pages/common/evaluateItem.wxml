@@ -1,0 +1,43 @@
+<template name='evaluateItem'>
+  <view class='evaluate_area'>
+    <!--用户信息-->
+    <view class='user_info'>
+      <view class='left'>
+        <image
+          src='{{user_avatar}}'
+          class='avatar'
+        >logo</image>
+        <view class='basic_info'>
+          <text class='top'>{{user_name}}</text>
+          <text class='bottom'>{{position_name}}</text>
+        </view>
+      </view>
+
+      <view class='scoring'>
+        <view class='evaluate-star'>
+          <image 
+            wx:for="{{stars}}" 
+            wx:for-index="idx" 
+            wx:for-item="bloon"
+            class='iconfont'
+            mode='widthFix'
+            src="{{bloon?'../../style/images/icon/starActiv.png':'../../style/images/icon/star.png'}}"
+          >{{bloon}}</image>
+        </view>
+        <text>{{created_at}}</text>
+      </view>
+    </view>
+
+    <!--评价-->
+    <view class='evaluate_content'>
+      <text>优点：{{advantage}}</text>
+      <text>缺点：{{shortcoming}}</text>
+    </view>
+
+    <!--关注公众号-->
+    <view class='follow'>
+      <text>查看完整点评</text>
+      <official-account></official-account>
+    </view>
+  </view>
+</template>

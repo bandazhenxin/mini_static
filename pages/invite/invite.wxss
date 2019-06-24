@@ -1,0 +1,26 @@
+/* pages/invite/invite.wxss */
+.imgWrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 960rpx;
+}
+.imgWrap .inviteQr{
+    width:80%;
+   
+}
+.invite .count{
+    text-align: center;
+    font-size: 36rpx;
+    padding-bottom: 25rpx;
+}
+.bottomBtn{
+    width:90%;
+    margin: 0 auto;
+    height:80rpx;
+    background:rgba(255,133,11,1);
+    border-radius:10rpx;
+    line-height: 80rpx;
+    color:#fff;
+    font-size:30rpx;
+}

@@ -1,0 +1,95 @@
+/*职位*/
+.scroll_item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 22rpx 44rpx;
+  border-bottom: 2rpx solid #F5F5F5;
+}
+.scroll_item .item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scroll_item .item_title .title{
+  font-size: 36rpx;
+  color: #5D5D5D;
+}
+.scroll_item .item_title .position{
+  font-size: 30rpx;
+  color:#545454;
+}
+.scroll_item .item_condition{
+  flex-wrap: wrap;
+}
+.scroll_item .item_condition .condition{
+  font-size: 30rpx;
+  color:#FF8914;
+  width: 100%;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+  word-wrap:break-word;
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+.scroll_item .item_company,.scroll_item .item_tags{
+  justify-content: flex-start;
+  padding-top: 6rpx;
+  padding-bottom: 6rpx; 
+  flex-wrap: wrap;
+}
+.scroll_item .item_company .label{
+  font-size: 16rpx;
+  color: #FFFFFF;
+  background-color: #149D4C;
+  display: block;
+  padding: 2rpx;
+  margin-right: 10rpx;
+}
+.scroll_item .item_company .company{
+  color: #C2C2C2;
+  font-size: 24rpx;
+}
+.scroll_item .item_tags .tags_item{
+  border: 1rpx solid #149D4C;
+  color: #149D4C;
+  font-size: 20rpx;
+  padding-left:6rpx; 
+  padding-right:6rpx; 
+  margin-right: 10rpx;
+  margin-bottom: 1rpx;
+}
+
+/*表单区域*/
+.form_area{
+  background-color: #F1F1F1;
+  padding: 44rpx;
+  padding-bottom: 0;
+}
+/*表单*/
+.form-input{
+  border-radius: 6rpx;
+}
+
+/*按钮区*/
+.btn-area{
+  padding: 88rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-area button{
+  padding: 11rpx 0;
+  background-color: #FF850B;
+  color: #FFFFFF;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  width: 90%;
+}

@@ -1,0 +1,20 @@
+<template name='positionItem'>
+  <view class='scroll_item' data-id="{{id}}" bindtap='goDetail'>
+    <view class='item_title item'>
+      <text class='title'>{{position_name}}</text>
+      <text class='position'>{{province_name}} {{city_name}}</text>
+    </view>
+    <view class='item_condition item'>
+      <text class='condition'>{{condition_text_list}}</text>
+    </view>
+    <view class='item_company item'>
+      <text class='label'>{{partner_role}}</text>
+      <text class='company'>{{job_partner_name}} | {{is_full_time}}</text>
+    </view>
+    <view class='item_tags item'>
+      <block wx:for="{{benefits_tags}}" wx:key="*this">
+        <text class='tags_item'>{{item}}</text>
+      </block>
+    </view>
+  </view>
+</template>

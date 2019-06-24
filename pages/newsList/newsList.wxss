@@ -1,0 +1,38 @@
+/* pages/newsList/newsList.wxss */
+page {
+  background-color: #F1F1F1;
+} 
+.container{
+  padding: 11rpx 44rpx;
+}
+
+/*消息卡片*/
+.news_card{
+  background: #FFFFFF;
+  margin:11rpx 0;
+  padding: 22rpx;
+  border: 1rpx solid #CDCDCD;
+  border-radius: 10rpx;
+}
+.news_card .basic{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.news_card .basic .icon{
+  width: 35rpx;
+  margin-right: 22rpx;
+}
+.news_card .basic .time{
+  font-size: 26rpx;
+  color: #979797;
+}
+.news_card .content{
+  font-size: 30rpx;
+  color: #3B3B3B;
+}
+.content::after{
+  content:"查看全文>>";
+  color: #86AFFF;
+  font-size: 32rpx;
+}

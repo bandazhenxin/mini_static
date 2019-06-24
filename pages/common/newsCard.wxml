@@ -1,0 +1,12 @@
+<template name='newsCard'>
+  <view class='news_card'>
+    <view class='basic'>
+      <image mode='widthFix' class='icon' src='../../style/images/icon/laba.png'></image>
+      <text class='time'>{{time}}</text>
+      <view class="weui-badge weui-badge_dot" style="margin-left: 15px;margin-right: 5px;"></view>
+    </view>
+    <view class='content'>
+      {{content}}
+    </view>
+  </view>
+</template>
