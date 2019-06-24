@@ -2,16 +2,59 @@
 <view class="container">
   <view class="invite">
     <!-- 轮播图 -->
-    <swiper display-multiple-items='1' autoplay="{{autoplay}}" class="swiper" interval="{{interval}}" duration="{{duration}}" current="0" bindchange="onSlideChangeEnd">
-      <block wx:for="{{imgUrls}}" wx:key="item">
+    <swiper display-multiple-items='1' autoplay="true" class="swiper" interval="3000" duration="1000" current="0">
         <swiper-item>
           <view class='imgWrap'>
-            <image src='{{item}}' class="inviteQr"></image>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
           </view>
         </swiper-item>
-      </block>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+         <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class='imgWrap'>
+            <image src='../../style/images/banner/inviteQr.png' class="inviteQr"></image>
+          </view>
+        </swiper-item>
     </swiper>
-    <view class="count">{{currentIndex}}/{{imgUrls.length}}</view>
+    <view class="count">6/10</view>
   </view>
   <button class="bottomBtn">分享并保存图片</button>
 </view>
